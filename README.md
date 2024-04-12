@@ -12,7 +12,6 @@ Optimisation de l'accessibilité.
 Lighthouse.
 Wave.
 Schema.org.
-GTMetrix.
 Rich Snippet Google.
 
 ## Auteurs : 
