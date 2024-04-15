@@ -206,7 +206,6 @@ h1,
 	background-color: white;
 	max-width: 390px;
 	width: 30%;
-	height: 337px;
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
@@ -244,8 +243,6 @@ h1,
 		margin-bottom: 30px;
 	}
 }
-
-
 
 form {
 	display: flex;
@@ -288,7 +285,7 @@ footer {
 	margin: 0px;
 }
 
-@media all and (max-width: 1180px) {
+@media all and (max-width: 1440px) {
 	.picture {
 		flex: 2;
 	}
@@ -309,10 +306,9 @@ footer {
 	}
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
 	#about {
 		flex-direction: column;
-
 	}
 
 	.picture {
@@ -360,6 +356,7 @@ footer {
 
 	#contact .container {
 		flex-direction: column;
+		text-align: -webkit-center;
 	}
 
 	#contact .picture.right {
@@ -368,7 +365,7 @@ footer {
 
 	.picture.right::before {
 		width: 100%;
-		height: 30%;
+		height: 20%;
 		position: absolute;
 		bottom: 0;
 		right: 0;
@@ -376,7 +373,7 @@ footer {
 	}
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 768px) {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
