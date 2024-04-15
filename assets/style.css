@@ -285,7 +285,7 @@ footer {
 	margin: 0px;
 }
 
-@media all and (max-width: 1440px) {
+@media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
 	}
@@ -297,7 +297,7 @@ footer {
 
 	.about-me__title {
 		margin-top: 0;
-		margin-bottom: 1em;
+		margin-bottom: 60px;
 	}
 
 	#about-me h6,
@@ -306,7 +306,7 @@ footer {
 	}
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1000px) {
 	#about {
 		flex-direction: column;
 	}
@@ -373,7 +373,7 @@ footer {
 	}
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
