@@ -14,7 +14,6 @@ h1,
 	padding-block: 2em;
 }
 
-
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -79,7 +78,6 @@ h1,
 
 .picture img {
 	width: 100%;
-
 }
 
 #about-me {
@@ -106,11 +104,6 @@ h1,
 	font-size: 14px;
 }
 
-/* .title {
-	text-align: center;
-	padding-block: 2em;
-}
- */
 .gallery .nav {
 	justify-content: center;
 }
@@ -238,10 +231,10 @@ h1,
 
 .form-container {
 	flex: 2;
+}
 
-	h2 {
-		margin-bottom: 30px;
-	}
+.form-container h2 {
+	margin-bottom: 30px;
 }
 
 form {
@@ -356,8 +349,14 @@ footer {
 
 	#contact .container {
 		flex-direction: column;
-		text-align: -webkit-center;
 	}
+
+	.form-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 
 	#contact .picture.right {
 		margin-top: 1em;
