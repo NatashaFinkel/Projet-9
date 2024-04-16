@@ -97,6 +97,8 @@ h1,
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
 }
 
 .about-me__introduction-txt {
