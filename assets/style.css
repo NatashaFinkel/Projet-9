@@ -277,6 +277,19 @@ footer {
 	padding: 50px 0px;
 }
 
+.footer-content {
+	display: flex;
+	gap: 10%;
+}
+
+.footer-img {
+	height: 220px;
+}
+
+.footer-txt-div{
+display: flex;
+flex-direction: column;
+}
 .no-margin {
 	margin: 0px;
 }
