@@ -9,8 +9,7 @@ body {
 }
 
 h1,
-.title,
-.quote__text {
+.title {
 	text-align: center;
 	padding-block: 2em;
 }
@@ -170,9 +169,8 @@ h1,
 	font-style: italic;
 	font-weight: 300;
 	font-size: calc(1.375rem + 1.5vw);
-	margin-top: 0;
-	margin-bottom: .5rem;
 	line-height: 1.2;
+	padding-block: 0px;
 }
 
 .quote__author {
