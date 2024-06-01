@@ -54,6 +54,11 @@ h1,
 	width: 25px;
 }
 
+.slider-img{
+	max-width: 100%;
+    height: auto;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
