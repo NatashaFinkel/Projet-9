@@ -54,11 +54,6 @@ h1,
 	width: 25px;
 }
 
-.slider-img{
-	max-width: 100%;
-    height: auto;
-}
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -314,6 +309,11 @@ footer {
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
+	}
+
+	.slider-img{
+		max-width: 100%;
+		height: auto;
 	}
 
 	#about,
