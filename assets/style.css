@@ -54,11 +54,6 @@ h1,
 	width: 25px;
 }
 
-.carousel-inner{
-	max-width: 100%;
-	overflow: hidden;
-}
-
 .slider-img {
 	max-width: 100%;
 	height: auto;
