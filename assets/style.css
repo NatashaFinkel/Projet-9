@@ -54,7 +54,7 @@ h1,
 	width: 25px;
 }
 
-.slider-img {
+.slider-img, .camera {
 	max-width: 100%;
 	height: auto;
 }
@@ -244,8 +244,6 @@ h1,
 
 .picture .camera {
 	position: relative;
-	width: 400px;
-	height: 400px;
 }
 
 .form-container {
@@ -412,7 +410,6 @@ footer {
 
 	.picture .camera {
 		bottom: 0px;
-		width: 100%;
 		height: auto;
 	}
 }
