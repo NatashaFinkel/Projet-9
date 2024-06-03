@@ -335,6 +335,16 @@ footer {
 }
 
 @media all and (max-width: 1000px) {
+
+	.top-header {
+		padding-inline: 20px;
+	}
+
+	.top-header .name,
+	.nav a {
+		font-size: 20px;
+	}
+
 	#about {
 		flex-direction: column;
 	}
@@ -413,21 +423,40 @@ footer {
 }
 
 @media all and (max-width: 650px) {
+
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
+	}
+
+	.top-header .name {
+		padding: 30px 0px 0px;
+		font-size: 26px;
+	}
+
+	.nav a {
+		font-size: 14px;
 	}
 
 	.top-header .nav,
 	.top-header .nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
+		justify-content: space-around;
 	}
 
 	.top-header .nav li {
-		flex: 1;
 		padding-block: 1em;
 		text-align: center;
+	}
+
+	.instagram-icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.nav li {
+		padding-inline: 5px;
 	}
 
 	.picture.left::before,
@@ -443,6 +472,15 @@ footer {
 		max-width: 90%;
 	}
 
+	h2 {
+		font-size: 20px;
+	}
+
+	.service__description p {
+		font-size: 17px;
+	}
+
+
 	#about,
 	#contact {
 		padding-inline: 2em;
@@ -453,7 +491,12 @@ footer {
 		width: 100%;
 	}
 
-	.picture {
-		width: 80%;
+	footer {
+		font-size: 14px;
 	}
+
+	.footer-content {
+		gap: 5%;
+	}
+
 }
